@@ -1,4 +1,8 @@
-# Todolist
+## About
+
+Simple Todo application based off of Brad Traversy's Angular youtube course with detailed comment notes
+
+## Tech
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
