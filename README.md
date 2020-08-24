@@ -1,6 +1,12 @@
 ## About
 
-Simple Todo application based off of Brad Traversy's Angular youtube course with detailed comment notes
+Simple but functionally-comprehensive Angular todo app demonstrating:
+- passing of arguments using Input (all components)
+- emission of arguments from a component using Output and EventEmitter modules (TodoItem, AddItem components) and catching of the emission event and its contained arguments by parent components (Todos component containing AddTodo and TodoItem catches respective add and toggle/delete events, which are processed with CRUD requests sent to TodoService for execution)
+- utilization and compartmentalization of asynchronous CRUD calls to a REST API using HttpModule and Observables (TodoService component, imports in App module)
+- conditional rendering using NgClass (TodoItem component HTML/CSS)
+- two-way data binding using NgModel (FormsModule import in app module)/Input/Output modules, and 
+- simple routing in App Route Modules file, with router links placed in the header
 
 ## Tech
 
