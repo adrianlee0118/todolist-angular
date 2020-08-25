@@ -8,7 +8,7 @@ Simple but functionally-comprehensive Angular todo app demonstrating:
 - two-way data binding using NgModel (FormsModule import in app module)/Input/Output modules, and 
 - simple routing in App Route Modules file, with router links placed in the header
 
-![lookit]()
+![lookit](https://github.com/adrianlee0118/todolist-angular/blob/master/assets/demo.gif)
 
 ## Tech
 
