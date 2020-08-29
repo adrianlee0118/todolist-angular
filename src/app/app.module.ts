@@ -24,7 +24,7 @@ import { AboutComponent } from './components/pages/about/about.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,  //Added to enable API calls
-    FormsModule
+    FormsModule      //Enable two way data binding
   ],
   providers: [],
   bootstrap: [AppComponent]
